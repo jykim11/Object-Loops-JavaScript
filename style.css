@@ -1,0 +1,29 @@
+.recipes {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.recipes>div {
+    margin: 2em;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+
+.information {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.allRecipes {
+    background-color: #ddd;
+    padding: 1rem;
+
+}
